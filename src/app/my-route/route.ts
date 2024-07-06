@@ -9,6 +9,7 @@ export const GET = async () => {
   const data = await payload.find({
     collection: 'users',
   })
+  console.log("data --->", data);
 
   return Response.json(data)
 }

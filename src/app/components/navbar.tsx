@@ -1,4 +1,5 @@
 "use client";
+
 import { useState, useRef, useEffect } from 'react';
 import { FaHome, FaBars } from 'react-icons/fa';
 import MobileNav from './mobile-nav';

@@ -20,7 +20,7 @@ export default function Home() {
   return (
     <>
       <Header/>
-      {/* <Navbar/> */}
+      <Navbar/>
       {/* <Homepage/> */}
       <HeadingBlock />
       <Latest/>
